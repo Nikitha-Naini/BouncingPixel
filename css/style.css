@@ -1,27 +1,74 @@
 body{
 	background-color: #ddd;
 	margin: 0px;
+	padding: 0px;
+}
+
+* {
+    box-sizing: border-box;
 }
 
 
 #Container{
 	margin-left: 5%;
     margin-right: 5%;
-	padding: 3%;
+	padding: 2%;
 
 	background-color: white;
 	height: 80%;
 }
 
-#Login {
+#Header{
+	padding: 0px;
+	margin: 0px;
+}
+
+#Logo{
+	float: left;
+	width: 30%;
+	margin-right: 15%;
+}
+
+#Navigation{
+	float: left;
+	width: 30%;
+}
+
+#nav.column {
+    float: left;
+    width: 45%;
+    padding:10px; 
+    margin: 2px;
     text-align: center;
+    color:white;  
+    background-position: center; 
+    background-repeat: no-repeat;
+    border-radius: 5px
+
 }
 
 
-#navshape {
-	width: 60px;
-	height: 20px
+/* Clear floats after the columns */
+#nav.row:after {
+	padding: 1px;
+    content: "";
+    display: table;
+    clear: both;
 }
+
+
+#Login {
+	float: left;
+    text-align: center;
+    width: 25%;
+}
+
+#Login_ul{
+	margin: 0;
+	padding: 0;
+}
+
+
 
 
 
@@ -42,9 +89,6 @@ body{
 }
 
 
-* {
-    box-sizing: border-box;
-}
 
 /* Create four equal columns that floats next to each other */
 .column {
@@ -72,3 +116,10 @@ ul{
 }
 
 
+
+
+
+p{
+	font-size:14px; 
+	margin: 0px
+}

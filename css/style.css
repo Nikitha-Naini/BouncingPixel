@@ -33,15 +33,21 @@ body{
 #Navigation{
 	float: left;
 	width: 38%;
+
 }
+
 
 #nav.column {
     float: left;
     width: 45%;
     padding:10px; 
     margin: 2px;
-    text-align: center;
-    color:white;  
+	font-size: 16px;
+	font-family: "Open Sans";
+	color: rgb(255, 255, 255);
+	font-weight: bold;
+	line-height: 1.2;
+	text-align: center;
     background-position: center; 
     background-repeat: no-repeat;
     border-radius: 10px;
@@ -66,6 +72,40 @@ body{
 #Login_ul{
 	margin: 0;
 	padding: 0;
+}
+
+.CUSTOMER_LOGIN {
+  font-size: 26px;
+  font-family: "Bangers";
+  color: rgb(255, 255, 255);
+  line-height: 1;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+.or_create_account {
+  font-size: 14px;
+  font-family: "Open Sans";
+  color: rgb(255, 255, 255);
+  line-height: 1;
+  text-align: center;
+}
+
+
+.Let_s_Talk_ {
+  font-size: 18px;
+  font-family: "Open Sans";
+  color: rgb(0, 0, 0);
+  line-height: 1.2;
+  text-align: center;
+}
+
+.We_d_love_to_hear_from_you_ {
+  font-size: 13px;
+  font-family: "Open Sans";
+  color: rgb(0, 0, 0);
+  line-height: 1.2;
+  text-align: center;
 }
 
 
@@ -228,4 +268,30 @@ p{
 	margin: 0px
 }
 
+.FOOTER_LINKS {
+  font-size: 18px;
+  font-family: "Open Sans";
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+  text-align: left;
+  margin-bottom: 5%;
+}
+
+
+.Dog_food_and_cat_food_Dog_food_and_cat_food_Dog {
+  font-size: 15px;
+  font-family: "Open Sans";
+  color: rgb(255, 255, 255);
+  line-height: 1.6;
+  text-align: left;
+}
+
+
+._800_Wilcrest_Drive__Suite_109_Houston__Texas_77 {
+  font-size: 13px;
+  font-family: "Open Sans";
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+  text-align: center;
+}
 

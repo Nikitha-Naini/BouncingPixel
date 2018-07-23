@@ -44,7 +44,7 @@ body{
     color:white;  
     background-position: center; 
     background-repeat: no-repeat;
-    border-radius: 6px;
+    border-radius: 10px;
 
 }
 
@@ -91,6 +91,28 @@ body{
 
 
 
+.BRILLIANT_IDEAS {
+  font-size: 66px;
+  letter-spacing: 3px;
+  font-family: 'Bangers';
+  color: rgb(160, 160, 160);
+  line-height: 1.2;
+  text-align: left;
+  position: absolute; 
+  left: 33%; 
+  bottom: 76%;
+  z-index: 57;
+  
+}
+
+
+
+
+
+
+
+
+
 
 #ProfessorCornor {
 	float: left;
@@ -98,10 +120,55 @@ body{
 	margin: 0% 4% 0% 0%;
 }
 
+.from_the_professor_s_corner {
+	font-size: 36px;
+	letter-spacing: 2px;
+	font-family: "Bangers";
+	color: rgb(255, 255, 255);
+	line-height: 1.2;
+	margin: 0px; 
+	text-align: center;
+}
+
+
+.Puppy_kitty_ipsum_dolor_sit_good_dog_tail_comma {
+  font-size: 14px;
+  font-family: "Open Sans";
+  color: rgb(0, 0, 0);
+  line-height: 1.2;
+  text-align: left;
+}
+
+._4_New_Year_s_Resolutions_for_You_and_Your_Pet_J {
+  font-size: 20px;
+  font-family: "Open Sans";
+  color: rgb(26, 128, 192);
+  line-height: 1;
+  text-align: left;
+}
+
+
+
+
+
 #BrilliantPlans {
 	float: right;
 	width: 46%;
 	margin: 0% 4% 0% 0%;
+}
+
+.Brilliant_Plans_for_Your_Home {
+	font-size: 36px;
+	letter-spacing: 2px;
+	font-family: "Bangers";
+	color: rgb(255, 255, 255);
+	line-height: 1.2;
+	margin: 0px; 
+	text-align: center;
+}
+
+#small_text {
+	font-size: 26px;
 }
 
 
@@ -162,7 +229,3 @@ p{
 }
 
 
-#Content{
-	padding:5%;
-	width:50%;
-}

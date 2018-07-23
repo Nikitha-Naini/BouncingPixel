@@ -108,18 +108,11 @@ body{
   text-align: center;
 }
 
-
-
-
-
 .column1 {
     float: left;
     width: 20%;
     padding: 0px;
 }
-
-
-
 
 .clearfix::after {
     content: "";
@@ -212,14 +205,6 @@ body{
 }
 
 
-
-
-
-
-
-
-
-
 #Footer{
 	font-size: 14px;
 	color:white;
@@ -231,7 +216,6 @@ body{
 	height: 20%;
 	
 }
-
 
 
 /* Create four equal columns that floats next to each other */
@@ -258,9 +242,6 @@ ul{
         width: 100%;
     }
 }
-
-
-
 
 
 p{
